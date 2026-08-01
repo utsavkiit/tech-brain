@@ -1,4 +1,4 @@
-# Personal Knowledge Base Instructions
+# Personal Tech Knowledge Base Instructions
 
 This repository is a simple Obsidian wiki. It has only three working surfaces:
 
