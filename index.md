@@ -4,7 +4,7 @@ Put new material in `inbox/`. Ask the agent to compile it into `notes/`, update 
 
 ## Notes
 
-_No notes yet._
+- [[notes/typescript-api-foundations|TypeScript API Foundations]] — turning untrusted JSON into domain values, modeling outcomes exhaustively, and preserving storage and money semantics.
 
 ## Open gaps
 

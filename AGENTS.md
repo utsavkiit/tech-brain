@@ -47,9 +47,18 @@ Put the most recall-worthy information near the top. Define unfamiliar terminolo
 - Include examples, caveats, and implementation detail only when they materially improve understanding or prevent a likely misunderstanding.
 - Link to an existing note instead of re-explaining its subject. Include only the context needed to understand the connection.
 - Preserve useful nuance, but move tangents and distinct concepts into their own notes only when they have durable value.
-- Before finishing, perform an editing pass that removes redundancy and compresses wording without losing meaning.
 
 The target is the shortest note that lets the user accurately recover the idea—not the most comprehensive note the agent can generate.
+
+## Final editorial pass
+
+Before completing an inbox compilation:
+
+- Reread every changed note in full as a first-time reader. Each paragraph must add a durable claim, explanation, example, caveat, connection, or source.
+- Remove repeated summaries, duplicated tradeoffs, template-only sections, filler transitions, and citations that do not help recover or verify the source.
+- Move any unique caveat beside the concept it qualifies before deleting a repetitive section; preserve necessary nuance, provenance, and clarifying examples.
+- For multiple substantially changed notes or any note over 1,000 words, ask a fresh-context, read-only subagent to flag filler and duplication. The primary agent decides and applies any edits.
+- Briefly report what was removed or consolidated.
 
 ## Synthesize and complete the graph
 
